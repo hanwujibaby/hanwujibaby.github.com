@@ -1,5 +1,5 @@
-title:            You'll never walk alone
-description:      Describe your website here.
+title:            
+description:      something about me and my thoughts.
 disqus_shortname: 
 #Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              http://hanwujibaby.github.com
@@ -7,7 +7,7 @@ url:              http://hanwujibaby.github.com
 owner:
   name:           Tony Wei
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  bio:            "a coder and a super fans of LiverpoolFC"
   email:          wayleynam@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
