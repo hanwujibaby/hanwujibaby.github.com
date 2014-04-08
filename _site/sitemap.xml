@@ -1,44 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://hanwujibaby.github.com</loc>
+        <loc>http://localhost:4000/blog</loc>
     </url>
     
     
     <url>
-        <loc>http://hanwujibaby.github.com/hanwujibaby.github.com/welcome-to-jekyll/</loc>
+        <loc>http://localhost:4000/blog/background-image.md/</loc>
     </url>
     
     <url>
-        <loc>http://hanwujibaby.github.com/background-image/</loc>
+        <loc>http://localhost:4000/blog/code-highlighting-post.md/</loc>
     </url>
     
     <url>
-        <loc>http://hanwujibaby.github.com/code-highlighting-post/</loc>
+        <loc>http://localhost:4000/blog/sample-link-post.md/</loc>
     </url>
     
     <url>
-        <loc>http://hanwujibaby.github.com/sample-link-post/</loc>
+        <loc>http://localhost:4000/blog/video-post.md/</loc>
     </url>
     
     <url>
-        <loc>http://hanwujibaby.github.com/video-post/</loc>
+        <loc>http://localhost:4000/blog/readability-feature-post.md/</loc>
     </url>
     
     <url>
-        <loc>http://hanwujibaby.github.com/readability-feature-post/</loc>
+        <loc>http://localhost:4000/blog/sample-post-images.md/</loc>
     </url>
     
     <url>
-        <loc>http://hanwujibaby.github.com/sample-post-images/</loc>
+        <loc>http://localhost:4000/blog/readability-post.md/</loc>
     </url>
     
     <url>
-        <loc>http://hanwujibaby.github.com/readability-post/</loc>
-    </url>
-    
-    <url>
-        <loc>http://hanwujibaby.github.com/sample-post/</loc>
+        <loc>http://localhost:4000/blog/sample-post.md/</loc>
     </url>
     
 </urlset>

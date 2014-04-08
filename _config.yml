@@ -2,12 +2,13 @@ title:
 description:      something about me and my thoughts.
 disqus_shortname: 
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://hanwujibaby.github.com
+#url:              http://hanwujibaby.github.com
+url:              http://localhost:4000/blog
 # Owner/author information
 owner:
   name:           Tony Wei
   avatar:         avatar.jpg
-  bio:            "a java server-side coder and a super fans of LFC(Liverpool Football Club)"
+  bio:            "a java server-side coder and a super fans of LFCLiverpool Football Club)"
   email:          wayleynam@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
