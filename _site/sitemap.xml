@@ -1,40 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://localhost:4000</loc>
+        <loc>http://hanwujibaby.github.com</loc>
     </url>
     
     
     <url>
-        <loc>http://localhost:4000/background-image/</loc>
+        <loc>http://hanwujibaby.github.com/hanwujibaby.github.com/welcome-to-jekyll/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/code-highlighting-post/</loc>
+        <loc>http://hanwujibaby.github.com/background-image/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/sample-link-post/</loc>
+        <loc>http://hanwujibaby.github.com/code-highlighting-post/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/video-post/</loc>
+        <loc>http://hanwujibaby.github.com/sample-link-post/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/readability-feature-post/</loc>
+        <loc>http://hanwujibaby.github.com/video-post/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/sample-post-images/</loc>
+        <loc>http://hanwujibaby.github.com/readability-feature-post/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/readability-post/</loc>
+        <loc>http://hanwujibaby.github.com/sample-post-images/</loc>
     </url>
     
     <url>
-        <loc>http://localhost:4000/sample-post/</loc>
+        <loc>http://hanwujibaby.github.com/readability-post/</loc>
+    </url>
+    
+    <url>
+        <loc>http://hanwujibaby.github.com/sample-post/</loc>
     </url>
     
 </urlset>
