@@ -1,6 +1,20 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="{{ site.url }}/assets/js/scripts.min.js"></script>
+  <!--多说js加载开始，一个页面只需要加载一次 -->
+  <script type="text/javascript">
+	  var duoshuoQuery = {short_name:"hanwujibaby"};
+		(function() {
+		 var ds = document.createElement('script');
+		 ds.type = 'text/javascript';ds.async = true;
+		 ds.src = 'http://static.duoshuo.com/embed.js';
+		 ds.charset = 'UTF-8';
+		 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+		 })();
+</script>
+<!--多说js加载结束，一个页面只需要加载一次 -->
+
+
 {% if site.google_analytics %}
 <!-- Asynchronous Google Analytics snippet -->
 <script>
@@ -18,4 +32,4 @@
   })();
 </script>
 {% endif %}
-{% if page.comments %}{% include disqus_comments.html %}{% endif %}
+{% if page.comments %}{% include duoshuo.html %}{% endif %}

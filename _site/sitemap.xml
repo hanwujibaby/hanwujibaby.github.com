@@ -6,35 +6,7 @@
     
     
     <url>
-        <loc>http://localhost:4000/blog/background-image.md/</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/blog/code-highlighting-post.md/</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/blog/sample-link-post.md/</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/blog/video-post.md/</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/blog/readability-feature-post.md/</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/blog/sample-post-images.md/</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/blog/readability-post.md/</loc>
-    </url>
-    
-    <url>
-        <loc>http://localhost:4000/blog/sample-post.md/</loc>
+        <loc>http://localhost:4000/blog/vim%E6%8A%80%E5%B7%A7/</loc>
     </url>
     
 </urlset>
