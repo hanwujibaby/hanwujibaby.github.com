@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Theme Setup &#8211; </title>
+<title>Theme Setup &#8211; You'll never walk alone</title>
 <meta name="description" content="Instructions on how to install and customize the modern Jekyll theme HPSTR.">
 <meta name="keywords" content="Jekyll, theme, install, setup">
 
@@ -17,14 +17,14 @@
 <meta property="og:title" content="Theme Setup">
 <meta property="og:description" content="Instructions on how to install and customize the modern Jekyll theme HPSTR.">
 <meta property="og:url" content="http://hanwujibaby.github.com/theme-setup/">
-<meta property="og:site_name" content="">
+<meta property="og:site_name" content="You'll never walk alone">
 
 
 
 
 
 <link rel="canonical" href="http://hanwujibaby.github.com/theme-setup/">
-<link href="http://hanwujibaby.github.com/feed.xml" type="application/atom+xml" rel="alternate" title=" Feed">
+<link href="http://hanwujibaby.github.com/feed.xml" type="application/atom+xml" rel="alternate" title="You'll never walk alone Feed">
 
 
 <!-- http://t.co/dKP3o1e -->
@@ -77,7 +77,7 @@
 				<li>
 					<img src="http://hanwujibaby.github.com/images/avatar.jpg" alt="Tony Wei photo" class="author-photo">
 					<h4>Tony Wei</h4>
-					<p>a java server-side coder and a super fans of LFCLiverpool Football Club)</p>
+					<p>Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice.</p>
 				</li>
 				<li><a href="http://hanwujibaby.github.com/about/">Learn More</a></li>
 				<li>
@@ -101,7 +101,7 @@
 				<li><a href="http://hanwujibaby.github.com/tags/">All Tags</a></li>
 			</ul>
 		</li>
-		
+		<li><a href="http://hanwujibaby.github.com/theme-setup">Theme Setup</a></li><li><a href="http://mademistakes.com">External Link</a></li>
 	</ul><!-- /.dl-menu -->
 </nav><!-- /.dl-menuwrapper -->
 
@@ -206,24 +206,24 @@
 
 <div class="highlight"><pre><code class="bash">hpstr-jekyll-theme/
 ├── _includes
-<span class="p">|</span>    ├── browser-upgrade.html  <span class="c"># prompt to upgrade browser on &lt; IE8</span>
-<span class="p">|</span>    ├── footer.html  <span class="c"># site footer</span>
-<span class="p">|</span>    ├── head.html  <span class="c"># site head</span>
-<span class="p">|</span>    ├── navigation.html <span class="c"># site navigation</span>
-<span class="p">|</span>    └── scripts.html  <span class="c"># jQuery, plugins, GA, etc</span>
+|    ├── browser-upgrade.html  <span class="c"># prompt to upgrade browser on &lt; IE8</span>
+|    ├── footer.html  <span class="c"># site footer</span>
+|    ├── head.html  <span class="c"># site head</span>
+|    ├── navigation.html <span class="c"># site navigation</span>
+|    └── scripts.html  <span class="c"># jQuery, plugins, GA, etc</span>
 ├── _layouts
-<span class="p">|</span>    ├── page.html  <span class="c"># page layout</span>
-<span class="p">|</span>    ├── page.html  <span class="c"># post-index layout used on home page</span>
-<span class="p">|</span>    └── post.html  <span class="c"># post layout</span>
+|    ├── page.html  <span class="c"># page layout</span>
+|    ├── page.html  <span class="c"># post-index layout used on home page</span>
+|    └── post.html  <span class="c"># post layout</span>
 ├── _posts
 ├── assets
-<span class="p">|</span>    ├── css  <span class="c"># preprocessed less styles</span>
-<span class="p">|</span>    ├── js
-<span class="p">|</span>    <span class="p">|</span>   ├── _main.js  <span class="c"># plugin options</span>
-<span class="p">|</span>    <span class="p">|</span>   ├── scripts.min.js  <span class="c"># concatenated and minifed site scripts</span>
-<span class="p">|</span>    <span class="p">|</span>   ├── plugins  <span class="c"># plugin scripts</span>
-<span class="p">|</span>    <span class="p">|</span>   └── vendor  <span class="c"># jQuery and Modernizr scripts</span>
-<span class="p">|</span>    └── less 
+|    ├── css  <span class="c"># preprocessed less styles</span>
+|    ├── js
+|    |   ├── _main.js  <span class="c"># plugin options</span>
+|    |   ├── scripts.min.js  <span class="c"># concatenated and minifed site scripts</span>
+|    |   ├── plugins  <span class="c"># plugin scripts</span>
+|    |   └── vendor  <span class="c"># jQuery and Modernizr scripts</span>
+|    └── less 
 ├── images  <span class="c"># images for posts and pages</span>
 ├── _config.yml  <span class="c"># Jekyll options</span>
 ├── about.md  <span class="c"># about page</span>
@@ -238,7 +238,7 @@
 
 <h3 id="configyml">_config.yml</h3>
 
-<p>Most of the variables found here are used in the .html files found in <code>_includes</code> if you need to add or remove anything. A good place to start would be to add the <code>title</code>, <code>description</code>, and <code>url</code> for your site. Links are absolute and prefixed with <code>{{ site.url }}</code> in the various <code>_includes</code> and <code>_layouts</code>, so remember to properly set <code>url</code><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> to <code>http://localhost:4000</code> when developing locally.</p>
+<p>Most of the variables found here are used in the .html files found in <code>_includes</code> if you need to add or remove anything. A good place to start would be to add the <code>title</code>, <code>description</code>, and <code>url</code> for your site. Links are absolute and prefixed with <code>{{ site.url }}</code> in the various <code>_includes</code> and <code>_layouts</code>, so remember to properly set <code>url</code><sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> to <code>http://localhost:4000</code> when developing locally.</p>
 
 <h4 id="disqus-comments">Disqus Comments</h4>
 
@@ -303,7 +303,7 @@
 
 <h4 id="feature-images">Feature Images</h4>
 
-<p>A good rule of thumb is to keep feature images nice and wide so you don&#8217;t push the body text too far down. An image cropped around around 1024 x 256 pixels will keep file size down with an acceptable resolution for most devices. If you want to serve these images responsively I&#8217;d suggest looking at the <a href="https://github.com/scottjehl/picturefill">Jekyll Picture Tag</a><sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> plugin.</p>
+<p>A good rule of thumb is to keep feature images nice and wide so you don&#8217;t push the body text too far down. An image cropped around around 1024 x 256 pixels will keep file size down with an acceptable resolution for most devices. If you want to serve these images responsively I&#8217;d suggest looking at the <a href="https://github.com/scottjehl/picturefill">Jekyll Picture Tag</a><sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> plugin.</p>
 
 <p>The two layouts make the assumption that the feature images live in the <em>images</em> folder. To add a feature image to a post or page just include the filename in the front matter like so. </p>
 
@@ -375,10 +375,10 @@
 <div class="footnotes">
   <ol>
     <li id="fn:1">
-      <p>Used to generate absolute urls in <code>sitemap.xml</code>, <code>feed.xml</code>, and for canonical urls in <code>head.html</code>. Don&#8217;t include a trailing <code>/</code> in your base url ie: http://mademistakes.com. When developing locally I suggest using http://localhost:4000 or whatever localhost you&#8217;re using to properly load all theme stylesheets, scripts, and image assets. If you leave this variable blank all links will resolve correctly except those pointing to home. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+      <p>Used to generate absolute urls in <code>sitemap.xml</code>, <code>feed.xml</code>, and for canonical urls in <code>head.html</code>. Don&#8217;t include a trailing <code>/</code> in your base url ie: http://mademistakes.com. When developing locally I suggest using http://localhost:4000 or whatever localhost you&#8217;re using to properly load all theme stylesheets, scripts, and image assets. If you leave this variable blank all links will resolve correctly except those pointing to home.<a href="#fnref:1" rel="reference">&#8617;</a></p>
     </li>
     <li id="fn:2">
-      <p>If you&#8217;re using GitHub Pages to host your site be aware that plugins are disabled. So you&#8217;ll need to build your site locally and then manually deploy if you want to use this sweet plugin. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+      <p>If you&#8217;re using GitHub Pages to host your site be aware that plugins are disabled. So you&#8217;ll need to build your site locally and then manually deploy if you want to use this sweet plugin.<a href="#fnref:2" rel="reference">&#8617;</a></p>
     </li>
   </ol>
 </div>
@@ -400,29 +400,13 @@
 
 <div class="footer-wrapper">
   <footer role="contentinfo">
-    <span>&copy; 2014 Tony Wei. Powered by Jekyll</span>
-
+    <span>&copy; 2014 Tony Wei. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/">HPSTR Theme</a>.</span>
   </footer>
 </div><!-- /.footer-wrapper -->
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="http://hanwujibaby.github.com/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="http://hanwujibaby.github.com/assets/js/scripts.min.js"></script>
-  <!--多说js加载开始，一个页面只需要加载一次 -->
-  <script type="text/javascript">
-	  var duoshuoQuery = {short_name:"hanwujibaby"};
-		(function() {
-		 var ds = document.createElement('script');
-		 ds.type = 'text/javascript';ds.async = true;
-		 ds.src = 'http://static.duoshuo.com/embed.js';
-		 ds.charset = 'UTF-8';
-		 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-		 })();
-</script>
-<!--多说js加载结束，一个页面只需要加载一次 -->
-
-
-
 
           
 
