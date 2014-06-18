@@ -3,7 +3,9 @@ layout: post
 title: python中执行sql语句
 description: "python代码中向mysql中执行sql语句"
 modified: 2014-06-18
-tags: [python,mysql]
+tags: 
+  python
+  mysql
 image:
   feature: abstract-3.jpg
 comments: true
