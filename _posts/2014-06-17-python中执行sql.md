@@ -1,7 +1,6 @@
 ---
 layout: post
 title: python中执行sql语句
-categoty：python
 description: "python代码中向mysql中执行sql语句"
 modified: 2014-06-18
 tags: [python,mysql]
