@@ -10,7 +10,6 @@ comments: true
 share: true
 ---
 
-
 {% highlight python%}
 import os
 import sys
