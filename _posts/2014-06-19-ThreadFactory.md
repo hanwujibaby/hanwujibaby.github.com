@@ -2,7 +2,7 @@
 layout: post
 title: ThreadFactory
 description: "java threadFactory接口"
-modified: 2014-04-08
+modified: 2014-06-19
 tags: 
   java
   concurrent
